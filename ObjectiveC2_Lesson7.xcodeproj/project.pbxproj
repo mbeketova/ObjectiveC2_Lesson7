@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52847B2AF16AAD8AD85600DE /* libPods-ObjectiveC2_Lesson7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133312C80561AA7AAF85CE2A /* libPods-ObjectiveC2_Lesson7.a */; };
 		84D7A8DA1B1658DE001AEB8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A8D91B1658DE001AEB8A /* main.m */; };
 		84D7A8DD1B1658DE001AEB8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A8DC1B1658DE001AEB8A /* AppDelegate.m */; };
 		84D7A8E01B1658DE001AEB8A /* ObjectiveC2_Lesson7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A8DE1B1658DE001AEB8A /* ObjectiveC2_Lesson7.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		84D7A8E81B1658DE001AEB8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D7A8E71B1658DE001AEB8A /* Images.xcassets */; };
 		84D7A8EB1B1658DE001AEB8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D7A8E91B1658DE001AEB8A /* LaunchScreen.xib */; };
 		84D7A8F71B1658DE001AEB8A /* ObjectiveC2_Lesson7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A8F61B1658DE001AEB8A /* ObjectiveC2_Lesson7Tests.m */; };
+		84D7A9021B1763CE001AEB8A /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D7A9011B1763CE001AEB8A /* Operation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133312C80561AA7AAF85CE2A /* libPods-ObjectiveC2_Lesson7.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjectiveC2_Lesson7.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		165C4FED50A16B0A8C35F16C /* Pods-ObjectiveC2_Lesson7.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC2_Lesson7.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC2_Lesson7/Pods-ObjectiveC2_Lesson7.debug.xcconfig"; sourceTree = "<group>"; };
 		84D7A8D41B1658DE001AEB8A /* ObjectiveC2_Lesson7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveC2_Lesson7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7A8D81B1658DE001AEB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D7A8D91B1658DE001AEB8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +46,9 @@
 		84D7A8F01B1658DE001AEB8A /* ObjectiveC2_Lesson7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveC2_Lesson7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7A8F51B1658DE001AEB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D7A8F61B1658DE001AEB8A /* ObjectiveC2_Lesson7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC2_Lesson7Tests.m; sourceTree = "<group>"; };
+		84D7A9001B1763CE001AEB8A /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		84D7A9011B1763CE001AEB8A /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		EB28AC6493AF76F5FA9C8F26 /* Pods-ObjectiveC2_Lesson7.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC2_Lesson7.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectiveC2_Lesson7/Pods-ObjectiveC2_Lesson7.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52847B2AF16AAD8AD85600DE /* libPods-ObjectiveC2_Lesson7.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1566F438788ED2DCA0294EC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				133312C80561AA7AAF85CE2A /* libPods-ObjectiveC2_Lesson7.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5281EB545A6593299F9CE61C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				165C4FED50A16B0A8C35F16C /* Pods-ObjectiveC2_Lesson7.debug.xcconfig */,
+				EB28AC6493AF76F5FA9C8F26 /* Pods-ObjectiveC2_Lesson7.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84D7A8CB1B1658DE001AEB8A = {
 			isa = PBXGroup;
 			children = (
 				84D7A8D61B1658DE001AEB8A /* ObjectiveC2_Lesson7 */,
 				84D7A8F31B1658DE001AEB8A /* ObjectiveC2_Lesson7Tests */,
 				84D7A8D51B1658DE001AEB8A /* Products */,
+				5281EB545A6593299F9CE61C /* Pods */,
+				1566F438788ED2DCA0294EC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +114,8 @@
 				84D7A8DC1B1658DE001AEB8A /* AppDelegate.m */,
 				84D7A8E11B1658DE001AEB8A /* ViewController.h */,
 				84D7A8E21B1658DE001AEB8A /* ViewController.m */,
+				84D7A9001B1763CE001AEB8A /* Operation.h */,
+				84D7A9011B1763CE001AEB8A /* Operation.m */,
 				84D7A8E41B1658DE001AEB8A /* Main.storyboard */,
 				84D7A8E71B1658DE001AEB8A /* Images.xcassets */,
 				84D7A8E91B1658DE001AEB8A /* LaunchScreen.xib */,
@@ -129,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D7A8FA1B1658DE001AEB8A /* Build configuration list for PBXNativeTarget "ObjectiveC2_Lesson7" */;
 			buildPhases = (
+				0ACAE660F5529D7A0E88FAF2 /* Check Pods Manifest.lock */,
 				84D7A8D01B1658DE001AEB8A /* Sources */,
 				84D7A8D11B1658DE001AEB8A /* Frameworks */,
 				84D7A8D21B1658DE001AEB8A /* Resources */,
+				508977EBACCF41B867D22D87 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +248,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0ACAE660F5529D7A0E88FAF2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		508977EBACCF41B867D22D87 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectiveC2_Lesson7/Pods-ObjectiveC2_Lesson7-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D7A8D01B1658DE001AEB8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -224,6 +288,7 @@
 			files = (
 				84D7A8DD1B1658DE001AEB8A /* AppDelegate.m in Sources */,
 				84D7A8E01B1658DE001AEB8A /* ObjectiveC2_Lesson7.xcdatamodeld in Sources */,
+				84D7A9021B1763CE001AEB8A /* Operation.m in Sources */,
 				84D7A8E31B1658DE001AEB8A /* ViewController.m in Sources */,
 				84D7A8DA1B1658DE001AEB8A /* main.m in Sources */,
 			);
@@ -347,6 +412,7 @@
 		};
 		84D7A8FB1B1658DE001AEB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 165C4FED50A16B0A8C35F16C /* Pods-ObjectiveC2_Lesson7.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjectiveC2_Lesson7/Info.plist;
@@ -357,6 +423,7 @@
 		};
 		84D7A8FC1B1658DE001AEB8A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB28AC6493AF76F5FA9C8F26 /* Pods-ObjectiveC2_Lesson7.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ObjectiveC2_Lesson7/Info.plist;
@@ -418,6 +485,7 @@
 				84D7A8FC1B1658DE001AEB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D7A8FD1B1658DE001AEB8A /* Build configuration list for PBXNativeTarget "ObjectiveC2_Lesson7Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +494,7 @@
 				84D7A8FF1B1658DE001AEB8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
